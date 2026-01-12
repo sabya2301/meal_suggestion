@@ -68,6 +68,20 @@ The agent will:
 3.  Save the new plan to the database.
 4.  Send you a WhatsApp message with the menu!
 
+### ⏰ Automation (Cron Job)
+
+To have the agent run automatically every morning (e.g., at 7:00 AM):
+
+1.  Open your crontab configuration:
+    ```bash
+    crontab -e
+    ```
+
+2.  Add the following line (replace `/your/path/to/...` with your actual project path):
+    ```bash
+    0 7 * * * cd /your/path/to/meal_suggestion && .venv/bin/python deepseek.py >> logs/cron_job.log 2>&1
+    ```
+
 ## 📂 Project Structure
 
 ```
