@@ -1,0 +1,19 @@
+.env
+
+# Virtual environment
+.venv/
+
+# Playground file
+*.ipynb
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Python compiled files
+*.pyc
+__pycache__/
