@@ -50,8 +50,8 @@ This is a **small Agentic AI project** designed to automate daily meal planning.
     ```ini
     TWILIO_ACCOUNT_SID=your_sid_here
     TWILIO_AUTH_TOKEN=your_token_here
-    TWILIO_FROM_NUMBER=whatsapp:+14155238886
-    MY_PHONE_NUMBER=whatsapp:+1234567890
+    TWILIO_FROM_NUMBER=whatsapp:+1234567890
+    MY_PHONE_NUMBER=whatsapp:+9876543210
     ```
 
 ### ▶️ Usage
